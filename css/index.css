@@ -1,0 +1,96 @@
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: #f4f4f4;
+}
+
+p{
+    font-family:'Oswald' ;
+    font-size: 20px;
+} 
+   
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+h2, h3 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: 'Oswald', sans-serif;
+}
+a{
+    text-decoration: none !important;
+}
+
+button:focus,
+input:focus,
+a:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-brand{
+    padding-top: 50px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+
+.img-fluid{
+    width: 75%;
+    border-radius: 10px;
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+.card-img-top{
+    height: 250px;
+    object-fit: cover; 
+}
+.card-body{
+    text-align: center;
+    color: black !important;
+
+
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+ul {
+    text-align: center;
+    list-style: none;
+}
+
+ul li {
+    font-size: 19px;
+    margin: 10px 0;
+    padding: 10px;
+    font-family: 'Oswald';
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+/* RESPONSIVE 
+@media (max-width: 768px) {
+    h1 {
+        font-size: 22px;
+    }
+}
+
+ */
