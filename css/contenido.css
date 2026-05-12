@@ -1,10 +1,9 @@
-/* BODY GENERAL */
+
 body {
     font-family: 'Oswald', sans-serif;
     background-color: #f4f4f4;
 }
 
-/* TITULOS */
 p{
     font-family:'Oswald' ;
     font-size: 20px;
@@ -24,11 +23,6 @@ h2, h3 {
     padding-top: 30px;
     font-family: 'Oswald', sans-serif;
 }
-
-
-/* NAVBAR */
-
-
 .navbar-brand{
     padding-top: 50px;
     font-family: 'Oswald', sans-serif;
@@ -36,7 +30,6 @@ h2, h3 {
     font-weight: bold;
 }
 
-/* LISTAS */
 ul {
     text-align: center;
     list-style: none;
@@ -49,4 +42,50 @@ ul li {
     font-family: 'Oswald';
     text-align: center;
 }
+.card-img-top{
+     height: 50%;
+    object-fit: cover;
+}
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+}
 
+.card:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+
+.card:hover .card-img-top {
+    transform: scale(1.1);
+}
+
+
+.btn {
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background-color: #b02a37; 
+}
+.marca-btn{
+    padding: 12px 25px;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.marca-btn:hover{
+    transform: scale(1.05);
+}
