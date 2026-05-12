@@ -16,10 +16,15 @@ h1 {
     font-family: 'Oswald', sans-serif;
 }
 
-h2, h3 {
+h2 {
     font-size: 20px;
     text-align: center;
     margin-bottom: 15px;
+    font-family: 'Oswald', sans-serif;
+}
+
+h3 {
+    text-align: center;
     font-family: 'Oswald', sans-serif;
 }
 a{
@@ -73,7 +78,6 @@ a:focus {
 }
 
 
-
 section {
     margin-bottom: 40px;
 }
@@ -81,6 +85,7 @@ section {
 ul {
     text-align: center;
     list-style: none;
+    
 }
 
 ul li {
@@ -91,8 +96,4 @@ ul li {
     text-align: center;
 }
 
-footer {
-    background-color: black;
-    color: white;
-}
 
