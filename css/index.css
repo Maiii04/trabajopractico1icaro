@@ -42,27 +42,37 @@ a:focus {
 
 
 .img-fluid{
-    width: 75%;
+    width: 85%;
     border-radius: 10px;
 }
 
 .card {
     transition: transform 0.3s ease;
+    border-radius: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .card:hover {
     transform: scale(1.05);
 }
+
 .card-img-top{
-    height: 250px;
-    object-fit: cover; 
+    height: 250px;   
+    object-fit: cover;
 }
+
+
 .card-body{
     text-align: center;
     color: black !important;
-
-
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }
+
+
 
 section {
     margin-bottom: 40px;
@@ -86,11 +96,3 @@ footer {
     color: white;
 }
 
-/* RESPONSIVE 
-@media (max-width: 768px) {
-    h1 {
-        font-size: 22px;
-    }
-}
-
- */
